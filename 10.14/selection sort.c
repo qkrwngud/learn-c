@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 main(){
+	// 메모리를 많이 먹음
 	int a, b, min, temp;
 	
 	int c[5] = {5, 2, 8, 3, 1};
