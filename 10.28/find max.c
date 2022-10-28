@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 main(){
+	// find max num
 	int a[5] = {15, 12, 28, 13, 7};
 	int k = 1, m;
 	
