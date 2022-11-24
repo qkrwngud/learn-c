@@ -5,8 +5,8 @@ using namespace std;
 // 이차방정식
 int main() {
 
-	cout << "ax2 + bx + c = 0\n";
-	
+	cout << "ax² + bx + c = 0\n";
+
 	double a = 0, b = 0, c = 0;
 
 	cout << "a입력: ";
@@ -20,13 +20,13 @@ int main() {
 
 	const double discriminant = b * b - 4 * a * c;
 
-	double root = sqrt(discriminant);
-	
+	const double root = sqrt(discriminant);
+
 	cout << endl;
-	
+
 	if (a == 0)
 	{
-		cout << "x = " << - (c / b);
+		cout << "x = " << -(c / b);
 	}
 	else if (discriminant > 0)
 	{
@@ -34,7 +34,7 @@ int main() {
 	}
 	else if (discriminant == 0)
 	{
-		cout <<"중근\nx = " << (-b + root) / (2 * a);
+		cout << "중근\nx = " << (-b + root) / (2 * a);
 	}
 	else
 	{
